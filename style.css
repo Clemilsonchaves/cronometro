@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+div {
+    text-align: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+button {
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.start-btn{
+ background-color: green;
+
+}
+
+.pause-btn {
+    background-color: grey;
+}
+
+.stop-btn {
+    background-color: red;
+}
